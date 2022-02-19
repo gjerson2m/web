@@ -31985,7 +31985,7 @@ Cw(a){var s
 if(A.uh(a).gYM())return A.AL(B.la,a,B.ao,!1)
 s=this.gab9()
 if(s==null)s=""
-return A.AL(B.la,s+("assets/"+a),B.ao,!1)},
+return A.AL(B.la,s+("web/assets/"+a),B.ao,!1)},
 fD(a,b){return this.axz(0,b)},
 axz(a,b){var s=0,r=A.V(t.V4),q,p=2,o,n=[],m=this,l,k,j,i,h,g,f,e
 var $async$fD=A.Q(function(c,d){if(c===1){o=d
@@ -32007,7 +32007,7 @@ e=o
 h=A.ai(e)
 if(t._p.b(h)){j=h
 i=A.aIm(j.target)
-if(t.Gf.b(i)){if(i.status===404&&b==="web/assets/AssetManifest.json"){$.di().$1("Asset manifest does not exist at `"+A.d(f)+"` \u2013 ignoring.")
+if(t.Gf.b(i)){if(i.status===404&&b==="AssetManifest.json"){$.di().$1("Asset manifest does not exist at `"+A.d(f)+"` \u2013 ignoring.")
 q=A.n9(new Uint8Array(A.is(B.ao.gnL().dY("{}"))).buffer,0,null)
 s=1
 break}h=i.status
@@ -67027,7 +67027,7 @@ gjN(){return this.a},
 t6(a){var s,r={},q=a.a
 if(q==null)q=$.N2()
 r.a=r.b=null
-q.axE("web/assets/AssetManifest.json",A.bfd(),t.wd).cr(0,new A.aa5(r,this,a,q),t.H).ln(new A.aa6(r))
+q.axE("AssetManifest.json",A.bfd(),t.wd).cr(0,new A.aa5(r,this,a,q),t.H).ln(new A.aa6(r))
 s=r.a
 if(s!=null)return s
 s=new A.af($.a5,t.Lv)
@@ -101411,7 +101411,7 @@ C(a,b){var s,r=null,q=A.e8(b,!0,t.w7).a.k(0,$.ja())
 this.c=q
 q=q?B.a9:B.a1
 s=A.eO(new A.b8(10,10))
-return A.R(r,A.as(A.a([A.I("Detalle Almacenamiento",r,r,r,r,A.aZ(r,r,r,r,r,r,r,r,r,r,r,18,r,B.bk,r,r,!0,r,r,r,r,r,r,r,r),r,r,r),A.C(r,16,r),new A.On(r),new A.u3("Documentos","assets/icons/Documents.svg","1.3GB",1389,r),new A.u3("Videos","assets/icons/media.svg","15.3GB",456335,r),new A.u3("Otros Archivos","assets/icons/folder.svg","3.3GB",1452,r),new A.u3("Desconocido","assets/icons/unknown.svg","0.3GB",146,r)],t.p),B.J,B.i,B.f),B.h,r,r,new A.aW(q,r,r,s,r,r,B.z),r,r,r,new A.X(16,16,16,16),r,r,r)}}
+return A.R(r,A.as(A.a([A.I("Detalle Almacenamiento",r,r,r,r,A.aZ(r,r,r,r,r,r,r,r,r,r,r,18,r,B.bk,r,r,!0,r,r,r,r,r,r,r,r),r,r,r),A.C(r,16,r),new A.On(r),new A.u3("Documentos","web/assets/icons/Documents.svg","1.3GB",1389,r),new A.u3("Videos","web/assets/icons/media.svg","15.3GB",456335,r),new A.u3("Otros Archivos","web/assets/icons/folder.svg","3.3GB",1452,r),new A.u3("Desconocido","web/assets/icons/unknown.svg","0.3GB",146,r)],t.p),B.J,B.i,B.f),B.h,r,r,new A.aW(q,r,r,s,r,r,B.z),r,r,r,new A.X(16,16,16,16),r,r,r)}}
 A.u3.prototype={
 C(a,b){var s,r=this,q=null,p=new A.cf(A.a4(38,76,175,80),2,B.ab),o=A.eO(new A.b8(16,16)),n=A.C(A.YP(r.d,q,B.d7,q,q),20,20),m=A.I(r.c,1,B.a0,q,q,q,q,q,q),l=""+r.f+" Files",k=A.a0(b).S.Q
 k.toString
