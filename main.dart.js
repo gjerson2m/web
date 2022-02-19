@@ -32007,7 +32007,7 @@ e=o
 h=A.ai(e)
 if(t._p.b(h)){j=h
 i=A.aIm(j.target)
-if(t.Gf.b(i)){if(i.status===404&&b==="AssetManifest.json"){$.di().$1("Asset manifest does not exist at `"+A.d(f)+"` \u2013 ignoring.")
+if(t.Gf.b(i)){if(i.status===404&&b==="web/assets/AssetManifest.json"){$.di().$1("Asset manifest does not exist at `"+A.d(f)+"` \u2013 ignoring.")
 q=A.n9(new Uint8Array(A.is(B.ao.gnL().dY("{}"))).buffer,0,null)
 s=1
 break}h=i.status
@@ -33261,7 +33261,7 @@ var $async$mR=A.Q(function(a4,a5){if(a4===1){o=a5
 s=p}while(true)switch(s){case 0:a1=null
 p=4
 s=7
-return A.a3(a3.fD(0,"FontManifest.json"),$async$mR)
+return A.a3(a3.fD(0,"web/assets/FontManifest.json"),$async$mR)
 case 7:a1=a5
 p=2
 s=6
@@ -40870,7 +40870,7 @@ var $async$mR=A.Q(function(a8,a9){if(a8===1){o=a9
 s=p}while(true)switch(s){case 0:a5=null
 p=4
 s=7
-return A.a3(a7.fD(0,"FontManifest.json"),$async$mR)
+return A.a3(a7.fD(0,"web/assets/FontManifest.json"),$async$mR)
 case 7:a5=a9
 p=2
 s=6
@@ -67027,7 +67027,7 @@ gjN(){return this.a},
 t6(a){var s,r={},q=a.a
 if(q==null)q=$.N2()
 r.a=r.b=null
-q.axE("AssetManifest.json",A.bfd(),t.wd).cr(0,new A.aa5(r,this,a,q),t.H).ln(new A.aa6(r))
+q.axE("web/assets/AssetManifest.json",A.bfd(),t.wd).cr(0,new A.aa5(r,this,a,q),t.H).ln(new A.aa6(r))
 s=r.a
 if(s!=null)return s
 s=new A.af($.a5,t.Lv)
