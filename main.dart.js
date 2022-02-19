@@ -67027,7 +67027,7 @@ gjN(){return this.a},
 t6(a){var s,r={},q=a.a
 if(q==null)q=$.N2()
 r.a=r.b=null
-q.axE("web/AssetManifest.json",A.bfd(),t.wd).cr(0,new A.aa5(r,this,a,q),t.H).ln(new A.aa6(r))
+q.axE("web/assets/AssetManifest.json",A.bfd(),t.wd).cr(0,new A.aa5(r,this,a,q),t.H).ln(new A.aa6(r))
 s=r.a
 if(s!=null)return s
 s=new A.af($.a5,t.Lv)
